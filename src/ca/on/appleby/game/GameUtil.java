@@ -22,7 +22,7 @@ public class GameUtil {
 			      {"Earth","Eevee",  "40", "25", "4", "85"}, 
 			      {"Earth","Snorlax", "85", "35", "8", "30"}, 
 			      {"Earth","Lucario", "75", "40", "6", "70"}, 
-			      {"Earth","Bulbasaur", "80", "35", "7", "50"},
+			      {"Earth","Bulbasaur", "90", "35", "7", "50"},
 			      {"Earth","Excadrill", "75", "30", "8", "40"}, 
 			      {"Earth","Rhyperior", "90", "40", "7", "20"}, 
 			      {"Fire","Charizard", "70", "30", "5", "70"}, 
@@ -30,7 +30,7 @@ public class GameUtil {
 			      {"Fire","Coalossal", "95", "40", "10", "10"}, 
 			      {"Fire","Entei", "70", "20", "7", "70"}, 
 			      {"Fire","Blaziken", "75", "20", "5", "65"}, 
-			      {"Fire","Infernape", "60", "20", "5", "60"}, 
+			      {"Fire","Infernape", "50", "30", "6", "70"}, 
 			      {"Fire","Turtonator", "85", "20", "7", "70"}, 
 			      {"Water","Gyarados", "80", "20", "8", "80"}, 
 			      {"Water","Blastoise", "80", "20", "9", "65"}, 
@@ -38,7 +38,7 @@ public class GameUtil {
 			      {"Water","Magikarp", "40", "15", "2", "90"}, 
 			      {"Water","Totodile", "75", "25", "5", "70"}, 
 			      {"Water","Octillery", "60", "30", "6", "80"}, 
-			      {"Water","Lotad", "50", "20", "2", "70"}, 
+			      {"Water","Lotad", "60", "30", "3", "60"}, 
 			};
 		
 		//Create new Pokemons based on stats listed above and load into array list
