@@ -322,7 +322,7 @@ public class GameUtil {
 		// If attacking pokemon's element is the same as defending pokemon's element
 		else {
 			// 50-50 chance as to which pokemon will have their special ability cancelled out
-			System.out.println("\t# " + "Both attacking and defending Pokemon's have the same element, a coin will be flipped to determe which pokemon will overpower the other...");
+			System.out.println("\t# " + "Both attacking and defending Pokemon's have the same element, a coin will be flipped to determine which pokemon will overpower the other...");
 			if (random.nextInt(100)<50) {
 				defensePokemon.setDefenseMode("normal");
 				System.out.println("\t# " + attackPokemon.getName() + "'s element overpowers "+defensePokemon.getName()+"'s element: "+defensePokemon.getName()+"'s special defense is now a normal defense!");
@@ -493,11 +493,11 @@ public class GameUtil {
 	
 	// Remove dead Pokemon from player 
 	public static void removeDeadPokemon (Player player1, Player player2) {
-		if (player1.getActivePokemon().getHealth()<=0) {
+		if (player1.getActivePokemon() != null && player1.getActivePokemon().getHealth()<=0) {
 			System.out.println("\n\t# Hi "+player1.getName()+", " + player1.getActivePokemon().getName() + " is dead");
 			player1.setActivePokemon(null);
 		}
-		else if (player2.getActivePokemon().getHealth()<=0) {
+		else if (player2.getActivePokemon() != null && player2.getActivePokemon().getHealth()<=0) {
 			System.out.println("\n\t# Hi "+player2.getName()+", " + player2.getActivePokemon().getName() + " is dead");
 			player2.setActivePokemon(null);
 		}

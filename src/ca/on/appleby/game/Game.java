@@ -109,7 +109,7 @@ public class Game {
 			GameUtil.elementAdvantage(player1, player2);
 
 
-			// Display fist attack for player with priority
+			// Display first attack for player with priority
 			if (priorityPlayerName.equals(player1.getName())) {
 				GameUtil.attack(player1, player2);
 			} else if (priorityPlayerName.equals(player2.getName())) {
@@ -129,7 +129,7 @@ public class Game {
 				}
 			}
 			
-			// Remove dead Pokemon from player if getHealth less than or eaual 0
+			// Remove dead Pokemon from player if getHealth less than or equal 0
 			GameUtil.removeDeadPokemon(player1, player2);
 			turn++;
 			System.out.println("\n\t# **Turn "+turn+" has ended!**");
